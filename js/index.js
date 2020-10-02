@@ -97,6 +97,7 @@ class Article extends Page {
 
 class Footer extends Page {
     render() {
+        const sName = "Armaan Rana";
         const yToday = new Date().getFullYear();
         $("footer").html(
             `&copy; ${yToday} ${this.sName}`
